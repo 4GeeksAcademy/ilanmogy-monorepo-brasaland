@@ -1,0 +1,6 @@
+@import "tailwindcss"; /* Load Tailwind's utility classes and base styles. */
+
+@theme {
+	--font-sans: "DM Sans", sans-serif; /* Use the downloaded sans-serif font for body text. */
+	--font-serif: "Playfair Display", serif; /* Use the display font for headings and brand text. */
+} /* End the Tailwind theme configuration. */

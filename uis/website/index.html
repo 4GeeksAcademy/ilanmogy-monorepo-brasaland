@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- The head declares page metadata, language alternatives, fonts, styles, and search previews. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Brasaland is a grilled-food restaurant chain founded in 2008, with company-owned restaurants in Colombia and Florida.">
+    <meta name="theme-color" content="#173c32">
+    <link rel="alternate" hreflang="es" href="./es/index.html">
+    <link rel="alternate" hreflang="en" href="./index.html">
+    <link rel="alternate" hreflang="x-default" href="./index.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="./tailwind.css" rel="stylesheet">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Brasaland | The grill that brings people together">
+    <meta property="og:description" content="A restaurant story that began in 2008 and now connects Colombia and Florida.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&amp;fit=crop&amp;w=1600&amp;q=85">
+    <title>Brasaland | The grill that brings people together</title>
+    <!-- The following valid JSON-LD identifies Brasaland and its verified service area for search engines. -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Brasaland",
+            "description": "A grilled-food restaurant chain founded in 2008, headquartered in Medellín, with operations in Colombia and Florida.",
+            "foundingDate": "2008",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Medellín",
+                "addressCountry": "CO"
+            },
+            "areaServed": [
+                { "@type": "Country", "name": "Colombia" },
+                { "@type": "AdministrativeArea", "name": "Florida, United States" }
+            ]
+        }
+    </script>
+</head>
+<body class="bg-[#f6f7f3] font-sans text-[#202923] antialiased">
+    <!-- This skip link lets keyboard users bypass repeated navigation and reach the page content. -->
+    <a class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:bg-white focus:px-4 focus:py-3 focus:text-[#173c32]" href="#content">Skip to content</a>
+    <!-- The header contains the brand, section links, and the Spanish-language route. -->
+    <header class="relative z-10 bg-white">
+        <div class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-x-8 gap-y-3 px-5 py-4 sm:px-8 lg:px-12">
+            <a class="font-serif text-2xl font-semibold text-[#173c32]" href="./index.html" aria-label="Brasaland home">Brasaland<span class="text-[#d4472d]">.</span></a>
+            <nav class="flex items-center gap-4 text-sm font-semibold sm:gap-7" aria-label="Main navigation">
+                <a class="transition-colors hover:text-[#d4472d] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#d4472d]" href="#story">Our story</a>
+                <a class="transition-colors hover:text-[#d4472d] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#d4472d]" href="#presence">Our presence</a>
+                <a class="rounded-full border border-[#173c32] px-3 py-2 text-xs uppercase tracking-wide text-[#173c32] transition-colors hover:bg-[#173c32] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#d4472d]" href="./es/index.html" lang="es" hreflang="es" aria-label="Leer este sitio en español">ES</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main groups the page's primary content and provides the skip-link destination. -->
+    <main id="content">
+        <!-- The hero introduces Brasaland over a real grilled-food image and directs visitors to contact. -->
+        <section class="relative isolate flex min-h-[32rem] items-end overflow-hidden bg-[#17231e] sm:min-h-[35rem] lg:min-h-[39rem]" aria-labelledby="hero-title">
+            <img class="absolute inset-0 -z-20 h-full w-full object-cover object-center brightness-[0.48]" src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&amp;fit=crop&amp;w=2200&amp;q=85" alt="Grilled meat and vegetables served for sharing" fetchpriority="high" width="2200" height="1467">
+            <div class="absolute inset-0 -z-10 bg-[#101914]/35" aria-hidden="true"></div>
+            <div class="mx-auto w-full max-w-7xl px-5 pb-14 pt-24 text-white sm:px-8 sm:pb-20 lg:px-12 lg:pb-24">
+                <p class="mb-4 text-sm font-bold uppercase tracking-[0.18em] text-[#f2b36f]">Since 2008 · Colombia and Florida</p>
+                <h1 id="hero-title" class="max-w-3xl font-serif text-5xl font-semibold leading-[1.04] sm:text-6xl lg:text-7xl">Brasaland<span class="text-[#f2b36f]">.</span></h1>
+                <p class="mt-5 max-w-xl text-lg leading-8 text-white sm:text-xl">The grill that brings people together. A company-owned restaurant story growing across Colombia and Florida.</p>
+                <a class="mt-8 inline-flex min-h-12 items-center justify-center rounded-md bg-[#d4472d] px-6 py-3 text-sm font-bold text-white transition-colors hover:bg-[#b83722] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white" href="./application.html">Get in touch</a>
+            </div>
+        </section>
+
+        <!-- These verified figures summarize the company's founding year, owned restaurants, and markets. -->
+        <section class="border-b border-[#d9ddd5] bg-white" aria-label="Brasaland at a glance">
+            <div class="mx-auto grid max-w-7xl grid-cols-1 divide-y divide-[#d9ddd5] px-5 sm:grid-cols-3 sm:divide-x sm:divide-y-0 sm:px-8 lg:px-12">
+                <div class="py-6 sm:px-7 sm:py-8"><p class="font-serif text-3xl font-semibold text-[#173c32]">2008</p><p class="mt-1 text-sm text-[#555e57]">The year our story began</p></div>
+                <div class="py-6 sm:px-7 sm:py-8"><p class="font-serif text-3xl font-semibold text-[#173c32]">14</p><p class="mt-1 text-sm text-[#555e57]">Company-owned restaurants</p></div>
+                <div class="py-6 sm:px-7 sm:py-8"><p class="font-serif text-3xl font-semibold text-[#173c32]">2</p><p class="mt-1 text-sm text-[#555e57]">Markets: Colombia and Florida</p></div>
+            </div>
+        </section>
+
+        <!-- This section explains Brasaland's history and current operating footprint. -->
+        <section id="story" class="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-12 lg:py-24" aria-labelledby="story-title">
+            <div class="grid gap-10 md:grid-cols-[0.8fr_1.2fr] md:items-start md:gap-20">
+                <div>
+                    <p class="text-sm font-bold uppercase tracking-[0.16em] text-[#b33e29]">One brand, two markets</p>
+                    <h2 id="story-title" class="mt-4 font-serif text-4xl font-semibold leading-tight text-[#173c32] sm:text-5xl">Experience that keeps growing.</h2>
+                </div>
+                <div class="max-w-2xl">
+                    <p class="text-lg leading-8 text-[#414a43]">Brasaland began in 2008 as a grilled-food restaurant company. Today, it operates 14 company-owned restaurants across Colombia and Florida, with its headquarters in Medellín.</p>
+                    <p class="mt-5 text-base leading-7 text-[#555e57]">Our presence connects two markets and teams working every day to grow the company while staying close to what brings us together: the table.</p>
+                    <a class="mt-7 inline-flex items-center gap-2 font-bold text-[#173c32] underline decoration-[#d4472d] decoration-2 underline-offset-4 hover:text-[#b33e29] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#d4472d]" href="./application.html">Send us a message <span aria-hidden="true">→</span></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- These articles present the company's experience, ownership model, and international presence. -->
+        <section id="presence" class="bg-[#e8eee8]" aria-labelledby="presence-title">
+            <div class="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-12 lg:py-24">
+                <div class="max-w-2xl">
+                    <p class="text-sm font-bold uppercase tracking-[0.16em] text-[#b33e29]">Rooted here, reaching further</p>
+                    <h2 id="presence-title" class="mt-4 font-serif text-4xl font-semibold leading-tight text-[#173c32] sm:text-5xl">Close to the people around the table.</h2>
+                </div>
+                <div class="mt-12 grid gap-8 border-t border-[#c6d1c7] pt-8 md:grid-cols-3 md:gap-12">
+                    <article><p class="font-serif text-2xl font-semibold text-[#173c32]">A real track record</p><p class="mt-3 leading-7 text-[#414a43]">Since 2008, Brasaland has built its experience operating grilled-food restaurants.</p></article>
+                    <article><p class="font-serif text-2xl font-semibold text-[#173c32]">Company-owned operations</p><p class="mt-3 leading-7 text-[#414a43]">All 14 of the company’s restaurants are company-owned, with headquarters in Medellín.</p></article>
+                    <article><p class="font-serif text-2xl font-semibold text-[#173c32]">An international presence</p><p class="mt-3 leading-7 text-[#414a43]">Brasaland operates in Florida as well as Colombia; its Miami office coordinates the Florida market.</p></article>
+                </div>
+            </div>
+        </section>
+
+        <!-- This call to action gives visitors a clear path to the inquiry form. -->
+        <section class="bg-[#173c32] text-white" aria-labelledby="contact-title">
+            <div class="mx-auto flex max-w-7xl flex-col gap-7 px-5 py-14 sm:px-8 md:flex-row md:items-center md:justify-between lg:px-12 lg:py-16">
+                <div class="max-w-2xl"><p class="text-sm font-bold uppercase tracking-[0.16em] text-[#f2b36f]">We’re listening</p><h2 id="contact-title" class="mt-3 font-serif text-3xl font-semibold sm:text-4xl">Have a question for Brasaland?</h2></div>
+                <a class="inline-flex min-h-12 shrink-0 items-center justify-center rounded-md bg-[#f2b36f] px-6 py-3 text-sm font-bold text-[#202923] transition-colors hover:bg-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white" href="./application.html">Contact us</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- The footer repeats the contact route and shares verified office locations. -->
+    <footer class="bg-[#101914] text-white">
+        <div class="mx-auto flex max-w-7xl flex-col gap-8 px-5 py-10 sm:px-8 md:flex-row md:items-end md:justify-between lg:px-12">
+            <div><a class="font-serif text-2xl font-semibold" href="./index.html">Brasaland<span class="text-[#f2b36f]">.</span></a><p class="mt-3 text-sm leading-6 text-[#d4ddd5]">Headquarters: Medellín, Colombia<br>Florida operations office: Miami</p></div>
+            <div class="flex flex-col gap-3 text-sm text-[#e4e9e4] sm:flex-row sm:items-center sm:gap-6"><a class="underline underline-offset-4 hover:text-[#f2b36f] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white" href="./application.html">Contact</a><a class="underline underline-offset-4 hover:text-[#f2b36f] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white" href="./es/index.html" lang="es" hreflang="es">Español</a><span>Brasaland · Since 2008</span></div>
+        </div>
+    </footer>
+</body>
+</html>

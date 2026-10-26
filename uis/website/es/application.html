@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacta con Brasaland y cuéntanos desde cuál de nuestros mercados nos escribes.">
+    <meta name="theme-color" content="#173c32">
+    <link rel="alternate" hreflang="es" href="./application.html">
+    <link rel="alternate" hreflang="en" href="../application.html">
+    <link rel="alternate" hreflang="x-default" href="../application.html">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="../tailwind.css" rel="stylesheet">
+    <title>Contacto | Brasaland</title>
+</head>
+<body class="bg-[#f6f7f3] font-sans text-[#202923] antialiased">
+    <a class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:bg-white focus:px-4 focus:py-3 focus:text-[#173c32]" href="#contenido">Saltar al contenido</a>
+    <header class="bg-white"><div class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8 lg:px-12"><a class="font-serif text-2xl font-semibold text-[#173c32]" href="./index.html">Brasaland.</a><nav class="flex gap-5" aria-label="Navegación principal"><a href="./index.html">Inicio</a><a href="../application.html" lang="en" hreflang="en">EN</a></nav></div></header>
+    <main id="contenido" class="mx-auto max-w-7xl px-5 py-12 sm:px-8 sm:py-16 lg:px-12 lg:py-20">
+        <div class="grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20">
+            <section aria-labelledby="form-title"><p class="text-sm font-bold uppercase tracking-[0.16em] text-[#b33e29]">Contacto</p><h1 id="form-title" class="mt-4 font-serif text-4xl font-semibold text-[#173c32] sm:text-5xl">Conversemos.</h1><p class="mt-5 max-w-lg text-lg leading-8 text-[#414a43]">Cuéntanos cómo podemos ayudarte y desde cuál de nuestros mercados nos escribes.</p><p class="mt-8 text-sm leading-6 text-[#555e57]">Sede principal: Medellín, Colombia.<br>Oficina de operaciones: Miami, Florida.</p></section>
+            <section aria-label="Formulario de contacto">
+                <form class="space-y-6" data-inquiry-form data-language="es" novalidate>
+                    <fieldset class="space-y-6"><legend class="sr-only">Tus datos y mensaje</legend>
+                        <div><label class="mb-2 block text-sm font-semibold" for="name">Nombre completo *</label><input class="w-full rounded-md border border-[#aeb8af] bg-white px-4 py-3 outline-none focus:border-[#173c32] focus:ring-2 focus:ring-[#173c32]/20" id="name" name="name" type="text" autocomplete="name" required minlength="2" maxlength="100" aria-describedby="name-error" data-field><p class="mt-1 min-h-5 text-sm text-[#a12f22]" id="name-error" data-error-for="name" aria-live="polite" hidden></p></div>
+                        <div><label class="mb-2 block text-sm font-semibold" for="email">Correo electrónico *</label><input class="w-full rounded-md border border-[#aeb8af] bg-white px-4 py-3 outline-none focus:border-[#173c32] focus:ring-2 focus:ring-[#173c32]/20" id="email" name="email" type="email" autocomplete="email" required maxlength="254" aria-describedby="email-error" data-field><p class="mt-1 min-h-5 text-sm text-[#a12f22]" id="email-error" data-error-for="email" aria-live="polite" hidden></p></div>
+                        <div><label class="mb-2 block text-sm font-semibold" for="phone">Teléfono (opcional)</label><input class="w-full rounded-md border border-[#aeb8af] bg-white px-4 py-3 outline-none focus:border-[#173c32] focus:ring-2 focus:ring-[#173c32]/20" id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" aria-describedby="phone-error" data-field><p class="mt-1 min-h-5 text-sm text-[#a12f22]" id="phone-error" data-error-for="phone" aria-live="polite" hidden></p></div>
+                        <div><label class="mb-2 block text-sm font-semibold" for="market">¿Desde qué mercado nos escribes? *</label><select class="w-full rounded-md border border-[#aeb8af] bg-white px-4 py-3 outline-none focus:border-[#173c32] focus:ring-2 focus:ring-[#173c32]/20" id="market" name="market" required aria-describedby="market-error" data-field><option value="">Selecciona una opción</option><option value="colombia">Colombia</option><option value="florida">Florida, Estados Unidos</option></select><p class="mt-1 min-h-5 text-sm text-[#a12f22]" id="market-error" data-error-for="market" aria-live="polite" hidden></p></div>
+                        <div><label class="mb-2 block text-sm font-semibold" for="message">¿En qué podemos ayudarte? *</label><textarea class="w-full rounded-md border border-[#aeb8af] bg-white px-4 py-3 outline-none focus:border-[#173c32] focus:ring-2 focus:ring-[#173c32]/20" id="message" name="message" rows="5" required minlength="10" maxlength="2000" aria-describedby="message-help message-error" data-field></textarea><p class="mt-1 text-sm text-[#555e57]" id="message-help">Escribe al menos 10 caracteres.</p><p class="mt-1 min-h-5 text-sm text-[#a12f22]" id="message-error" data-error-for="message" aria-live="polite" hidden></p></div>
+                    </fieldset>
+                    <div class="flex flex-wrap gap-3"><button class="min-h-12 rounded-md bg-[#173c32] px-6 py-3 text-sm font-bold text-white" type="submit">Enviar mensaje</button><button class="min-h-12 rounded-md border border-[#79877c] px-5 py-3 text-sm font-bold text-[#173c32]" type="reset">Limpiar formulario</button></div>
+                    <p class="rounded-md border-l-4 border-[#173c32] bg-[#e8eee8] p-4 leading-6 text-[#173c32]" data-form-success role="status" aria-live="polite" tabindex="-1" hidden>Gracias por escribirnos. Tu mensaje pasó la validación; esta demostración no lo envía ni lo almacena.</p>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer class="bg-[#101914] text-white"><div class="mx-auto flex max-w-7xl flex-col gap-4 px-5 py-8 sm:px-8 md:flex-row md:justify-between lg:px-12"><a href="./index.html">Brasaland.</a><p class="text-sm text-[#d4ddd5]">Sede principal: Medellín, Colombia · Operaciones en Florida</p></div></footer>
+    <script src="../validation.js" defer></script>
+</body>
+</html>

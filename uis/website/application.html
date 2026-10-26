@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- The head sets Spanish page metadata, language alternatives, fonts, styles, and organization data. -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Contact Brasaland. Share your question or feedback and tell us which of our markets you are writing from.">
+	<meta name="theme-color" content="#173c32">
+	<link rel="alternate" hreflang="es" href="./es/application.html">
+	<link rel="alternate" hreflang="en" href="./application.html">
+	<link rel="alternate" hreflang="x-default" href="./application.html">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+	<link href="./tailwind.css" rel="stylesheet">
+	<title>Contact | Brasaland</title>
+	<!-- This valid JSON-LD describes Brasaland for search engines; JSON syntax does not allow inline comments. -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Organization",
+			"name": "Brasaland",
+			"description": "A grilled-food restaurant chain founded in 2008, headquartered in Medellín, with operations in Colombia and Florida.",
+			"foundingDate": "2008",
+			"address": { "@type": "PostalAddress", "addressLocality": "Medellín", "addressCountry": "CO" },
+			"areaServed": [
+				{ "@type": "Country", "name": "Colombia" },
+				{ "@type": "AdministrativeArea", "name": "Florida, United States" }
+			]
+		}
+	</script>
+</head>
+<body class="bg-[#f6f7f3] font-sans text-[#202923] antialiased">
+	<!-- This link gives keyboard users a direct route to the form content. -->
+	<a class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:bg-white focus:px-4 focus:py-3 focus:text-[#173c32]" href="#content">Skip to content</a>
+	<!-- The header provides a route back to the English landing page and to the Spanish form. -->
+	<header class="bg-white">
+		<div class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-x-8 gap-y-3 px-5 py-4 sm:px-8 lg:px-12">
+			<a class="font-serif text-2xl font-semibold text-[#173c32]" href="./index.html" aria-label="Brasaland home">Brasaland<span class="text-[#d4472d]">.</span></a>
+			<nav class="flex items-center gap-4 text-sm font-semibold sm:gap-7" aria-label="Main navigation">
+				<a class="hover:text-[#d4472d] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#d4472d]" href="./index.html">Home</a>
+				<a class="rounded-full border border-[#173c32] px-3 py-2 text-xs uppercase tracking-wide text-[#173c32] hover:bg-[#173c32] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#d4472d]" href="./es/application.html" lang="es" hreflang="es" aria-label="Leer este formulario en español">ES</a>
+			</nav>
+		</div>
+	</header>
+	<!-- Main contains the contact introduction and the accessible inquiry form. -->
+	<main id="content" class="mx-auto max-w-7xl px-5 py-12 sm:px-8 sm:py-16 lg:px-12 lg:py-20">
+		<div class="grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20">
+			<section aria-labelledby="form-title">
+				<p class="text-sm font-bold uppercase tracking-[0.16em] text-[#b33e29]">Contact</p>
+				<h1 id="form-title" class="mt-4 font-serif text-4xl font-semibold leading-tight text-[#173c32] sm:text-5xl">Let’s talk.</h1>
+				<p class="mt-5 max-w-lg text-lg leading-8 text-[#414a43]">Tell us how we can help. Our team operates in Colombia and Florida; share your message and the market you are writing from.</p>
+				<p class="mt-8 text-sm leading-6 text-[#555e57]">Headquarters in Medellín, Colombia.<br>Florida operations office in Miami.</p>
+				<a class="mt-8 inline-flex items-center gap-2 font-bold text-[#173c32] underline decoration-[#d4472d] decoration-2 underline-offset-4 hover:text-[#b33e29] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#d4472d]" href="./index.html"><span aria-hidden="true">←</span> Back to Brasaland</a>
+			</section>
+			<!-- The form collects only contact details and the user's market and message. -->
+			<section aria-label="Contact form">
+				<form class="space-y-6" data-inquiry-form data-language="en" novalidate>
+					<!-- The fieldset groups the personal details and message under one accessible legend. -->
+					<fieldset class="space-y-6">
+						<legend class="sr-only">Your details and message</legend>
+						<!-- This required text field identifies the person contacting Brasaland. -->
+						<div>
+							<label class="mb-2 block text-sm font-semibold text-[#202923]" for="name">Full name <span class="text-[#b33e29]" aria-hidden="true">*</span></label>
+							<input class="w-full rounded-md border border-[#aeb8af] bg-white px-4 py-3 text-base text-[#202923] outline-none transition focus:border-[#173c32] focus:ring-2 focus:ring-[#173c32]/20" id="name" name="name" type="text" autocomplete="name" required minlength="2" maxlength="100" aria-describedby="name-error" data-field>
+							<p class="mt-1 min-h-5 text-sm text-[#a12f22]" id="name-error" data-error-for="name" aria-live="polite" hidden></p>
+						</div>
+						<!-- This required email field gives Brasaland a reply address. -->
+						<div>
+							<label class="mb-2 block text-sm font-semibold text-[#202923]" for="email">Email address <span class="text-[#b33e29]" aria-hidden="true">*</span></label>
+							<input class="w-full rounded-md border border-[#aeb8af] bg-white px-4 py-3 text-base text-[#202923] outline-none transition focus:border-[#173c32] focus:ring-2 focus:ring-[#173c32]/20" id="email" name="email" type="email" autocomplete="email" required maxlength="254" aria-describedby="email-error" data-field>
+							<p class="mt-1 min-h-5 text-sm text-[#a12f22]" id="email-error" data-error-for="email" aria-live="polite" hidden></p>
+						</div>
+						<!-- This optional telephone field accepts an international contact number. -->
+						<div>
+							<label class="mb-2 block text-sm font-semibold text-[#202923]" for="phone">Phone <span class="text-xs font-normal text-[#555e57]">(optional)</span></label>
+							<input class="w-full rounded-md border border-[#aeb8af] bg-white px-4 py-3 text-base text-[#202923] outline-none transition focus:border-[#173c32] focus:ring-2 focus:ring-[#173c32]/20" id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" aria-describedby="phone-help phone-error" data-field>
+							<p class="mt-1 text-sm text-[#555e57]" id="phone-help">Include the country code if needed.</p>
+							<p class="mt-1 min-h-5 text-sm text-[#a12f22]" id="phone-error" data-error-for="phone" aria-live="polite" hidden></p>
+						</div>
+						<!-- This required selection limits the inquiry to the two markets in company context. -->
+						<div>
+							<label class="mb-2 block text-sm font-semibold text-[#202923]" for="market">Which market are you contacting us from? <span class="text-[#b33e29]" aria-hidden="true">*</span></label>
+							<select class="w-full rounded-md border border-[#aeb8af] bg-white px-4 py-3 text-base text-[#202923] outline-none transition focus:border-[#173c32] focus:ring-2 focus:ring-[#173c32]/20" id="market" name="market" required aria-describedby="market-error" data-field>
+								<option value="">Choose an option</option>
+								<option value="colombia">Colombia</option>
+								<option value="florida">Florida, United States</option>
+							</select>
+							<p class="mt-1 min-h-5 text-sm text-[#a12f22]" id="market-error" data-error-for="market" aria-live="polite" hidden></p>
+						</div>
+						<!-- This required message field captures the reason for the inquiry. -->
+						<div>
+							<label class="mb-2 block text-sm font-semibold text-[#202923]" for="message">How can we help? <span class="text-[#b33e29]" aria-hidden="true">*</span></label>
+							<textarea class="w-full rounded-md border border-[#aeb8af] bg-white px-4 py-3 text-base text-[#202923] outline-none transition focus:border-[#173c32] focus:ring-2 focus:ring-[#173c32]/20" id="message" name="message" rows="5" required minlength="10" maxlength="2000" aria-describedby="message-help message-error" data-field></textarea>
+							<p class="mt-1 text-sm text-[#555e57]" id="message-help">Please enter at least 10 characters.</p>
+							<p class="mt-1 min-h-5 text-sm text-[#a12f22]" id="message-error" data-error-for="message" aria-live="polite" hidden></p>
+						</div>
+					</fieldset>
+					<!-- Submit validates locally; reset clears values, errors, and any success message. -->
+					<div class="flex flex-wrap items-center gap-3 pt-2">
+						<button class="inline-flex min-h-12 items-center justify-center rounded-md bg-[#173c32] px-6 py-3 text-sm font-bold text-white transition-colors hover:bg-[#245a49] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#d4472d]" type="submit">Send message</button>
+						<button class="inline-flex min-h-12 items-center justify-center rounded-md border border-[#79877c] px-5 py-3 text-sm font-bold text-[#173c32] transition-colors hover:bg-[#e8eee8] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#d4472d]" type="reset">Clear form</button>
+					</div>
+					<!-- This live status confirms validation without claiming that data was transmitted or stored. -->
+					<p class="rounded-md border-l-4 border-[#173c32] bg-[#e8eee8] p-4 leading-6 text-[#173c32]" data-form-success role="status" aria-live="polite" tabindex="-1" hidden>Thanks for reaching out. Your message passed validation; this demo does not send or store it.</p>
+				</form>
+			</section>
+		</div>
+	</main>
+	<!-- The footer repeats the company location and provides an English-language form link. -->
+	<footer class="bg-[#101914] text-white">
+		<div class="mx-auto flex max-w-7xl flex-col gap-4 px-5 py-8 sm:px-8 md:flex-row md:items-center md:justify-between lg:px-12">
+			<a class="font-serif text-xl font-semibold" href="./index.html">Brasaland<span class="text-[#f2b36f]">.</span></a>
+			<p class="text-sm text-[#d4ddd5]">Headquarters: Medellín, Colombia · Florida operations</p>
+			<a class="text-sm underline underline-offset-4 hover:text-[#f2b36f] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white" href="./es/application.html" lang="es" hreflang="es">Español</a>
+		</div>
+	</footer>
+	<script src="./validation.js" defer></script>
+</body>
+</html>
